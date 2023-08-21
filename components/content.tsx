@@ -16,7 +16,7 @@ const Content = () => {
         <div className="flex flex-wrap -m-4">
           <div className="xl:w-1/3 md:w-1/2 p-4">
             <div className="border border-gray-200 p-6 rounded-lg">
-              <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+              <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-primary mb-4">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -40,7 +40,7 @@ const Content = () => {
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
             <div className="border border-gray-200 p-6 rounded-lg">
-              <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+              <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-primary mb-4">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -66,7 +66,7 @@ const Content = () => {
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
             <div className="border border-gray-200 p-6 rounded-lg">
-              <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+              <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-primary mb-4">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -91,7 +91,7 @@ const Content = () => {
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
             <div className="border border-gray-200 p-6 rounded-lg">
-              <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+              <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-primary mb-4">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -115,7 +115,7 @@ const Content = () => {
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
             <div className="border border-gray-200 p-6 rounded-lg">
-              <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+              <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-primary mb-4">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -139,7 +139,7 @@ const Content = () => {
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
             <div className="border border-gray-200 p-6 rounded-lg">
-              <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+              <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-primary mb-4">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -162,7 +162,7 @@ const Content = () => {
             </div>
           </div>
         </div>
-        <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+        <button className="flex mx-auto mt-16 text-white bg-primary border-0 py-2 px-8 focus:outline-none hover:bg-primaryhover rounded text-lg">
           Button
         </button>
       </div>
