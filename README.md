@@ -1,34 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Social Brain Contacts Promotional Site 🧠
 
-## Getting Started
+Promoting the 'Social Brain Contacts' mobile app that leverages social brain theory to help users manage and understand their social relationships.
 
-First, run the development server:
+![Built with Next.js](https://img.shields.io/badge/Next.js-000.svg?style=flat-square&logo=next.js&logoColor=fff)
+![React Version](https://img.shields.io/badge/React-18.2.0-blue.svg?style=flat-square&logo=react)
+
+## About the 'Social Brain Contacts' App
+
+'Social Brain Contacts' is a react-native expo app that utilizes research in social brain theory to provide tools to users to group their phone contacts into bins. The app aims to enhance users' ability to manage and reflect upon their social relationships.
+
+### Features of the Mobile App
+
+- **Grouping Contacts**: Sort contacts into categories like intimate relationships, best friends, good friends, etc.
+- **Authentication**: Secure login, signup, and password reset with Firebase.
+- **Customization**: Reusable components for scalability and easy modifications.
+- **User-Friendly UI**: Uses Expo Vector Icons and other visually appealing elements.
+- **Convenience**: Custom hook to toggle password field visibility, handles keyboard appearance, secure environment variable management, and more.
+
+[Learn more about the mobile app](https://github.com/Erics1337/social-brain-contacts)
+
+## About the Promotional Site
+
+This website is built using Next.js 13 to promote the 'Social Brain Contacts' app. It showcases the features, benefits, and installation instructions for the app, providing users with an engaging experience to understand the application's core functionalities.
+
+## Key Technologies
+
+- **Next.js 13**: For building a highly performant and scalable web application.
+- **React 18**: Utilized for creating interactive UI components.
+- **Tailwind CSS**: For styling the components.
+- **TypeScript**: Ensuring type safety and easier debugging.
+- **Formik**: Robust form management.
+- **Nodemailer**: For handling email services.
+
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/username/social-brain-contacts-website.git
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Build for production
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+5. Start the production server
 
-## Learn More
+```bash
+npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[MIT License](LICENSE)
