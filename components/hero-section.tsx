@@ -9,7 +9,7 @@ const HeroSection = () => {
 			}}>
 			<div className='container mx-auto flex px-5 py-24 items-center justify-center flex-col'>
 				<div className='text-center lg:w-2/3 w-full bg-gray-100 bg-opacity-90 p-6 rounded-lg'>
-					<h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900'>
+				<h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900'>
 						Unlock the Power of Social Brain Contacts
 					</h1>
 					<p className='mb-8 leading-7 text-lg text-gray-700 font-medium tracking-normal mx-auto'>
