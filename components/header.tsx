@@ -14,7 +14,7 @@ const Header = () => {
 					: 'shadow-none'
 			}`}>
 			<div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center'>
-				<a className='flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0'>
+				<a href='/' className='flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0'>
 					<Image
 						src='/logo.png'
 						alt='Navbar Icon'
@@ -24,7 +24,8 @@ const Header = () => {
 					<span className='ml-3 text-xl'>Social Brain <strong>Contacts</strong></span>
 				</a>
 				<nav className='md:ml-auto flex flex-wrap items-center text-base justify-center'>
-					<a className='mr-5 hover:text-gray-900'>Contact Us</a>
+					<a className='mr-5 hover:text-gray-900' href='/#contact'>Contact Us</a>
+					<a className='mr-5 hover:text-gray-900' href='/knowledgeBase'>Knowledge Base</a>
 				</nav>
 				<a
 					href='https://apps.apple.com/app/idYOUR_APP_ID_HERE'
