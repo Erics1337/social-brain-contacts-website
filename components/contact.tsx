@@ -3,7 +3,7 @@ import ContactForm from "./form";
 
 const Contact = () => {
   return (
-    <section id='contact' className="body-font relative bg-gray-200 dark:bg-gray-500">
+    <section id='contact' className="body-font relative">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4">

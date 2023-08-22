@@ -24,8 +24,8 @@ const Header = () => {
 					<span className='ml-3 text-xl'>Social Brain <strong>Contacts</strong></span>
 				</a>
 				<nav className='md:ml-auto flex flex-wrap items-center text-base justify-center'>
-					<a className='mr-5 hover:text-gray-900' href='/#contact'>Contact Us</a>
-					<a className='mr-5 hover:text-gray-900' href='/knowledgeBase'>Knowledge Base</a>
+					<a className='mr-5 hover:bg-gray-200 dark:hover:text-gray-700 p-2 rounded' href='/#contact'>Contact Us</a>
+					<a className='mr-5 hover:bg-gray-200 p-2 dark:hover:text-gray-700 rounded' href='/knowledgeBase'>Knowledge Base</a>
 				</nav>
 				<a
 					href='https://apps.apple.com/app/idYOUR_APP_ID_HERE'

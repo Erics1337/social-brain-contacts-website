@@ -8,36 +8,43 @@ interface FeatureCardProps {
 }
 
 const FeatureCard: React.FC<FeatureCardProps> = ({
-	icon,
-	title,
-	description,
-	linkURL,
+    icon,
+    title,
+    description,
+    linkURL,
 }) => (
-	<div className='p-4 md:w-1/3 flex flex-col text-center items-center'>
-		<div className='w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-primary mb-5 flex-shrink-0'>
-			{icon}
-		</div>
-		<h2 className='text-gray-900 text-lg title-font font-medium mb-3'>
-			{title}
-		</h2>
-		<p className='leading-relaxed text-base'>{description}</p>
-		<a
-			href={linkURL}
-			className='mt-3 text-primary inline-flex items-center'>
-			Learn More
-			<svg
-				fill='none'
-				stroke='currentColor'
-				strokeLinecap='round'
-				strokeLinejoin='round'
-				strokeWidth='2'
-				className='w-4 h-4 ml-2'
-				viewBox='0 0 24 24'>
-				<path d='M5 12h14M12 5l7 7-7 7'></path>
-			</svg>
-		</a>
-	</div>
+    <div className='flex flex-col justify-between border border-gray-300 p-4 rounded-lg h-full'>
+        <div className='w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-primary mb-5 flex-shrink-0'>
+            {icon}
+        </div>
+        <h2 className='text-gray-900 text-lg title-font font-medium mb-3'>
+            {title}
+        </h2>
+        <p className='leading-relaxed text-base flex-grow'>
+            {description}
+        </p>
+        <div>
+            <a
+                href={linkURL}
+                className='mt-3 text-primary inline-flex items-center'>
+                Learn More
+                <svg
+                    fill='none'
+                    stroke='currentColor'
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    strokeWidth='2'
+                    className='w-4 h-4 ml-2'
+                    viewBox='0 0 24 24'>
+                    <path d='M5 12h14M12 5l7 7-7 7'></path>
+                </svg>
+            </a>
+        </div>
+    </div>
 )
+
+
+
 
 const Features = () => {
 	return (
@@ -55,7 +62,7 @@ const Features = () => {
 						<div className='w-16 h-1 rounded-full bg-primary inline-flex'></div>
 					</div>
 				</div>
-				<div className='flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6'>
+				<div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
 					{/* Feature 1 */}
 					<FeatureCard
 						icon={
