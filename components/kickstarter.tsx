@@ -3,14 +3,14 @@ import React from 'react';
 
 const KickstarterCampaign: React.FC = () => {
 	return (
-		<section className='bg-gray-100 py-12'>
+		<section className='py-12'>
 			<div className='container mx-auto px-4 md:py-24'>
 				<div className='flex flex-col md:flex-row flex-wrap -mx-4'>
 					<div className='w-full md:w-1/2 px-4 flex flex-col justify-center items-center md:items-start'>
-						<h1 className='title-font text-center sm:text-4xl md:text-left text-3xl mb-4 font-medium text-gray-900'>
+						<h1 className='title-font text-center sm:text-4xl md:text-left text-3xl mb-4 font-medium'>
 							Support Our Kickstarter Campaign!
 						</h1>
-						<p className='text-gray-700 mb-6 text-center md:text-left'>
+						<p className='mb-6 text-center md:text-left'>
 							We're excited to announce our latest project, and we
 							need your support to bring it to life. By backing
 							our Kickstarter campaign, you can become a part of

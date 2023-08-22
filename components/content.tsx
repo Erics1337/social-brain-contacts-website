@@ -4,16 +4,26 @@ import InfoCard from './infoCard'
 
 const Content = () => {
 	return (
-		<section className='text-gray-600 body-font bg-gray-50'>
+		<section className='body-font'>
 			<div className='container px-5 py-24 mx-auto'>
 				<div className='flex flex-wrap w-full mb-20 flex-col items-center text-center'>
-				<h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900'>
+					<h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium'>
 						About Social Brain Theory
 					</h1>
-					<p className='lg:w-1/2 w-full leading-relaxed text-gray-500'>
-          Social Brain Theory suggests that human social networks are organized into layers because of cognitive limitations. These layers correspond to specific categories, commonly referred to as 'Dunbar's Numbers.'
-<br/><br/>
-The Social Brain Contacts app leverages this theory by enabling you to sort and manage your phone contacts according to these categories. By fitting your contacts into this framework, the app provides a structured way to handle your social connections, making it easier to manage and reducing the mental effort needed to navigate a complex network of relationships.
+					<p className='lg:w-1/2 w-full leading-relaxed'>
+						Social Brain Theory suggests that human social networks
+						are organized into layers because of cognitive
+						limitations. These layers correspond to specific
+						categories, commonly referred to as 'Dunbar's Numbers.'
+						<br />
+						<br />
+						The Social Brain Contacts app leverages this theory by
+						enabling you to sort and manage your phone contacts
+						according to these categories. By fitting your contacts
+						into this framework, the app provides a structured way
+						to handle your social connections, making it easier to
+						manage and reducing the mental effort needed to navigate
+						a complex network of relationships.
 					</p>
 				</div>
 				<div className='flex flex-wrap -m-4'>
@@ -49,7 +59,10 @@ The Social Brain Contacts app leverages this theory by enabling you to sort and 
             "
 					/>
 				</div>
-				<a href='https://www.youtube.com/watch?v=zZF6vXMGBOw' target="_blank" rel="noopener noreferrer">
+				<a
+					href='https://www.youtube.com/watch?v=zZF6vXMGBOw'
+					target='_blank'
+					rel='noopener noreferrer'>
 					<button className='flex mx-auto mt-16 text-white bg-primary border-0 py-2 px-8 focus:outline-none hover:bg-primaryhover rounded text-lg'>
 						Learn More
 					</button>

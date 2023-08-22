@@ -2,12 +2,11 @@ import React from 'react'
 
 const Socials = () => {
 	return (
-        <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+		<span className='inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start'>
 			<a
 				href='https://www.facebook.com'
 				target='_blank'
-				rel='noopener noreferrer'
-				className='text-gray-500'>
+				rel='noopener noreferrer'>
 				<svg
 					fill='currentColor'
 					strokeLinecap='round'
@@ -22,7 +21,7 @@ const Socials = () => {
 				href='https://www.twitter.com'
 				target='_blank'
 				rel='noopener noreferrer'
-				className='ml-4 text-gray-500'>
+				className='ml-4'>
 				<svg
 					fill='currentColor'
 					strokeLinecap='round'
@@ -37,7 +36,7 @@ const Socials = () => {
 				href='https://www.instagram.com'
 				target='_blank'
 				rel='noopener noreferrer'
-				className='ml-4 text-gray-500'>
+				className='ml-4'>
 				<svg
 					fill='none'
 					stroke='currentColor'
@@ -60,7 +59,7 @@ const Socials = () => {
 				href='https://www.whatsapp.com'
 				target='_blank'
 				rel='noopener noreferrer'
-				className='ml-4 text-gray-500'>
+				className='ml-4'>
 				<svg
 					fill='currentColor'
 					strokeLinecap='round'

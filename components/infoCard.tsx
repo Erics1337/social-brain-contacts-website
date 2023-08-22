@@ -26,7 +26,7 @@ const InfoCard: React.FC<InfoCardProps> = ({ number, title, description }) => {
 					</div>
 					<h1 className='ml-2 font-bold text-xl'>{number}</h1>
 				</div>
-				<h2 className='text-lg text-gray-900 font-medium title-font mb-2'>
+				<h2 className='text-lg font-medium title-font mb-2'>
 					{title}
 				</h2>
 				<p className='leading-relaxed text-base'>{description}</p>
