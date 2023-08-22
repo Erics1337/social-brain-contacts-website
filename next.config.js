@@ -5,7 +5,7 @@
  **/
 const nextConfig = {
 	images: {
-		domains: ['github.githubassets.com', 's.yimg.com'],
+		domains: ['github.githubassets.com', 's3-prod.crainsnewyork.com'],
 	},
 }
 

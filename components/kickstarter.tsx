@@ -1,4 +1,5 @@
-import React from 'react'
+import Image from 'next/image';
+import React from 'react';
 
 const KickstarterCampaign: React.FC = () => {
 	return (
@@ -25,31 +26,21 @@ const KickstarterCampaign: React.FC = () => {
 							</a>
 						</div>
 					</div>
-					<div className='w-full md:w-1/2 px-4'>
-						<div className='relative' style={{ paddingBottom: '65%' }}>
-							<svg
-								className='absolute top-0 left-0 w-full h-full'
-								viewBox='0 0 3000 1954'
-								xmlns='http://www.w3.org/2000/svg'>
-								<defs>
-									<clipPath id='wave-clip'>
-										<path d='M0,0 L3000,0 L3000,1800 C2500,1850 500,1850 0,1800 L0,0' />
-									</clipPath>
-								</defs>
-								<image
-									clipPath='url(#wave-clip)'
-									href='https://s3-prod.crainsnewyork.com/Kickstarter-GettyImages-1237459986.jpg'
-									width='3000'
-									height='1954'
-									preserveAspectRatio='xMidYMid slice'
-								/>
-							</svg>
+					<div className='w-full md:w-1/2 px-4 flex justify-center'>
+						<div className='rounded-2xl overflow-hidden max-w-md'>
+							<Image
+								width={345}
+								height={240}
+								src='https://s3-prod.crainsnewyork.com/Kickstarter-GettyImages-1237459986.jpg'
+								alt='Kickstarter Campaign'
+								className='w-full'
+							/>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-	)
+	);
 }
 
-export default KickstarterCampaign
+export default KickstarterCampaign;
