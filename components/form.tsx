@@ -125,7 +125,7 @@ const ContactForm = () => {
                   disabled={isLoading}
                   className="flex mx-auto text-white bg-primary border-0 py-2 px-8 focus:outline-none hover:bg-primaryhover rounded text-lg"
                 >
-                  Button
+                  Send Message
                 </button>
               </div>
             </div>

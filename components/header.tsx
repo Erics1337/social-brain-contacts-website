@@ -21,7 +21,7 @@ const Header = () => {
 						width={50}
 						height={50}
 					/>
-					<span className='ml-3 text-xl'>Social Brain Contacts</span>
+					<span className='ml-3 text-xl'>Social Brain <strong>Contacts</strong></span>
 				</a>
 				<nav className='md:ml-auto flex flex-wrap items-center text-base justify-center'>
 					<a className='mr-5 hover:text-gray-900'>Contact Us</a>
