@@ -28,7 +28,7 @@ const Header = () => {
 					<a className='mr-5 hover:bg-gray-200 p-2 dark:hover:text-gray-700 rounded' href='/knowledgeBase'>Knowledge Base</a>
 				</nav>
 				<a
-					href='https://apps.apple.com/app/idYOUR_APP_ID_HERE'
+					href='https://apps.apple.com/us/app/social-brain-contacts/id6452471350'
 					target='_blank'
 					rel='noopener noreferrer'>
 					<button className='inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 mx-2 text-gray-700'>
@@ -53,7 +53,7 @@ const Header = () => {
 					</button>
 				</a>
 				<a
-					href='https://apps.apple.com/app/idYOUR_APP_ID_HERE'
+					href='https://apps.apple.com/us/app/social-brain-contacts/id6452471350'
 					target='_blank'
 					rel='noopener noreferrer'>
 					<button className='inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 mx-2 text-gray-700'>

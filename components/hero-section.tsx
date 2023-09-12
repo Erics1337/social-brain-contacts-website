@@ -9,8 +9,11 @@ const HeroSection = () => {
 			}}>
 			<div className='container mx-auto flex px-5 py-24 items-center justify-center flex-col'>
 				<div className='text-center lg:w-2/3 w-full bg-gray-100 bg-opacity-90 p-6 rounded-lg'>
-				<h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900'>
-						Unlock the Power of <span className='text-primaryhover'>Social Brain <strong>Contacts</strong></span>
+					<h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900'>
+						Unlock the Power of{' '}
+						<span className='text-primaryhover'>
+							Social Brain <strong>Contacts</strong>
+						</span>
 					</h1>
 					<p className='mb-8 leading-7 text-lg text-gray-700 font-medium tracking-normal mx-auto'>
 						'Social Brain Contacts' is a revolutionary mobile app
@@ -24,12 +27,16 @@ const HeroSection = () => {
 					</p>
 
 					<div className='flex justify-center'>
-						<button className='inline-flex text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-primaryhover rounded text-lg'>
-							Download Now
-						</button>
-						<button className='ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg'>
-							Learn More
-						</button>
+						<a href='https://apps.apple.com/us/app/social-brain-contacts/id6452471350'>
+							<button className='inline-flex text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-primaryhover rounded text-lg'>
+								Download Now
+							</button>
+						</a>
+						<a href='https://www.bbc.com/future/article/20191001-dunbars-number-why-we-can-only-maintain-150-relationships#:~:text=According%20to%20British%20anthropologist%20Robin,studies%20of%20non%2Dhuman%20primates.'>
+							<button className='ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg'>
+								Learn More
+							</button>
+						</a>
 					</div>
 				</div>
 			</div>
