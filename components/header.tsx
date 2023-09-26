@@ -53,7 +53,7 @@ const Header = () => {
 					</button>
 				</a>
 				<a
-					href='https://apps.apple.com/us/app/social-brain-contacts/id6452471350'
+					href='https://play.google.com/store/apps/details?id=com.socialbrain.social_brain_contacts'
 					target='_blank'
 					rel='noopener noreferrer'>
 					<button className='inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 mx-2 text-gray-700'>
