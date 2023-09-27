@@ -4,17 +4,17 @@ import InfoCard from './infoCard'
 
 const Content = () => {
 	return (
-		<section className='body-font'>
-			<div className='container px-5 py-24 mx-auto'>
-				<div className='flex flex-wrap w-full mb-20 flex-col items-center text-center'>
-					<h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium'>
+		<section className='body-font bg-gray-100 py-20'>
+			<div className='container px-5 mx-auto'>
+				<div className='text-center mb-20'>
+					<h1 className='sm:text-5xl text-4xl font-bold mb-6'>
 						About Social Brain Theory
 					</h1>
-					<p className='lg:w-1/2 w-full leading-relaxed'>
+					<p className='text-base leading-relaxed lg:w-2/3 mx-auto'>
 						Social Brain Theory suggests that human social networks
-						are organized into layers because of cognitive
-						limitations. These layers correspond to specific
-						categories, commonly referred to as 'Dunbar's Numbers.'
+						are organized into layers due to cognitive limitations.
+						These layers correspond to specific categories, commonly
+						referred to as 'Dunbar's Numbers.'
 						<br />
 						<br />
 						The Social Brain Contacts app leverages this theory by
@@ -55,18 +55,18 @@ const Content = () => {
 					<InfoCard
 						number={1500}
 						title='Recognizable Faces'
-						description="People you can recognize, but don't know personally.
-            "
+						description="People you can recognize, but don't know personally."
 					/>
 				</div>
-				<a
-					href='https://www.youtube.com/watch?v=zZF6vXMGBOw'
-					target='_blank'
-					rel='noopener noreferrer'>
-					<button className='flex mx-auto mt-16 text-white bg-primary border-0 py-2 px-8 focus:outline-none hover:bg-primaryhover rounded text-lg'>
+				<div className='text-center mt-16'>
+					<a
+						href='https://www.youtube.com/watch?v=zZF6vXMGBOw'
+						target='_blank'
+						rel='noopener noreferrer'
+						className='inline-block bg-primary text-white py-2 px-8 rounded-lg text-lg hover:bg-primary-dark transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-dark'>
 						Learn More
-					</button>
-				</a>
+					</a>
+				</div>
 			</div>
 		</section>
 	)

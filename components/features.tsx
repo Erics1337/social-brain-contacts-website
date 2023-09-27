@@ -8,22 +8,20 @@ interface FeatureCardProps {
 }
 
 const FeatureCard: React.FC<FeatureCardProps> = ({
-    icon,
-    title,
-    description,
-    linkURL,
+	icon,
+	title,
+	description,
+	linkURL,
 }) => (
-    <div className='flex flex-col justify-between border border-gray-300 p-4 rounded-lg h-full'>
-        <div className='w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-primary mb-5 flex-shrink-0'>
-            {icon}
-        </div>
-        <h2 className='text-gray-900 text-lg title-font font-medium mb-3'>
-            {title}
-        </h2>
-        <p className='leading-relaxed text-base flex-grow'>
-            {description}
-        </p>
-        <div>
+	<div className='flex flex-col justify-between border border-gray-300 p-4 rounded-lg h-full'>
+		<div className='w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-primary mb-5 flex-shrink-0'>
+			{icon}
+		</div>
+		<h2 className='text-gray-900 text-lg title-font font-medium mb-3'>
+			{title}
+		</h2>
+		<p className='leading-relaxed text-base flex-grow'>{description}</p>
+		{/* <div>
             <a
                 href={linkURL}
                 className='mt-3 text-primary inline-flex items-center'>
@@ -39,19 +37,16 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
                     <path d='M5 12h14M12 5l7 7-7 7'></path>
                 </svg>
             </a>
-        </div>
-    </div>
+        </div> */}
+	</div>
 )
-
-
-
 
 const Features = () => {
 	return (
-		<section className='text-gray-600 body-font bg-gray-300'>
-			<div className='container px-5 py-24 mx-auto'>
+		<section className='text-gray-600 body-font bg-gray-50 py-20'>
+			<div className='container px-5 py-12 mx-auto'>
 				<div className='text-center mb-20'>
-				<h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900'>
+					<h1 className='title-font sm:text-5xl text-4xl mb-4 font-medium text-gray-900'>
 						Top Features of Social Brain Contacts
 					</h1>
 					<p className='text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s'>
@@ -62,7 +57,7 @@ const Features = () => {
 						<div className='w-16 h-1 rounded-full bg-primary inline-flex'></div>
 					</div>
 				</div>
-				<div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
+				<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
 					{/* Feature 1 */}
 					<FeatureCard
 						icon={
@@ -129,9 +124,11 @@ const Features = () => {
 						linkURL='#'
 					/>
 				</div>
-				<button className='flex mx-auto mt-16 text-white bg-primary border-0 py-2 px-8 focus:outline-none hover:bg-primaryhover rounded text-lg'>
-					Explore More Features
-				</button>
+				<div className='text-center mt-16'>
+					<button className='inline-block bg-primary text-white py-2 px-8 rounded-lg text-lg hover:bg-primary-dark transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-dark'>
+						Explore More Features
+					</button>
+				</div>
 			</div>
 		</section>
 	)
