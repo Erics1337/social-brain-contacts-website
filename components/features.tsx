@@ -74,7 +74,7 @@ const Features = () => {
 								<line x1='12' y1='9' x2='12' y2='15' />
 							</svg>
 						}
-						title='Intelligent Contact Sorting'
+						title='Structured Contact Sorting'
 						description='Sort your contacts into different categories like intimate relationships, friends, and more, based on social brain theory.'
 						linkURL='#'
 					/>
