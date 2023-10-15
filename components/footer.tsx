@@ -18,12 +18,12 @@ const Footer = () => {
         <p className="text-sm sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
           © 2023 Social Brain —
           <a
-            href="https://twitter.com/knyttneve"
+            href="https://www.linkedin.com/in/ericsdesign/"
             className="ml-1"
             rel="noopener noreferrer"
             target="_blank"
           >
-            @erics1337
+            Developed by Eric Swanson
           </a>
         </p>
         <Socials />
