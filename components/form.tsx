@@ -147,8 +147,8 @@ const ContactForm = () => {
 
       {showConfetti && (
         <Confetti
-          width={window.innerWidth}
-          height={window.innerHeight}
+          width={window.innerWidth as any}
+          height={window.innerHeight as any}
           recycle={false}
         />
       )}
