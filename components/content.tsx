@@ -10,7 +10,7 @@ const Content = () => {
 					<h1 className='sm:text-5xl text-4xl font-bold mb-6'>
 						About Social Brain Theory
 					</h1>
-					<p className='text-base leading-relaxed lg:w-2/3 mx-auto'>
+					<p className='leading-relaxed lg:w-2/3 mx-auto text-lg'>
 						Social Brain Theory suggests that human social networks
 						are organized into layers due to cognitive limitations.
 						These layers correspond to specific categories, commonly

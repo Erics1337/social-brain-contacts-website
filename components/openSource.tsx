@@ -21,7 +21,7 @@ const OpenSource = () => {
 					<h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900'>
 						Contribute to Social Brain Contacts
 					</h1>
-					<p className='mb-8 leading-relaxed'>
+					<p className='mb-8 leading-relaxed text-lg'>
 						Join us in building an amazing app to manage social
 						connections based on social brain theory. Your
 						contributions, big or small, can make a huge difference!
