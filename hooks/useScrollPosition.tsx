@@ -1,18 +1,20 @@
-"use client";
-import React, { useState, useEffect } from "react";
+'use client'
+import React, { useState, useEffect } from 'react'
 
 export const useScrollPosition = () => {
-  const [scrollPosition, setScrollPosition] = useState(0);
+	const [scrollPosition, setScrollPosition] = useState(0)
 
-  useEffect(() => {
-    const updatePosition = () => {
-      setScrollPosition(window.pageYOffset);
-    };
+	useEffect(() => {
+		const updatePosition = () => {
+			// @ts-ignore
+			setScrollPosition(window.pageYOffset)
+		}
+		// @ts-ignore
+		window.addEventListener('scroll', updatePosition)
+		updatePosition()
+		// @ts-ignore
+		return () => window.removeEventListener('scroll', updatePosition)
+	}, [])
 
-    window.addEventListener("scroll", updatePosition);
-    updatePosition();
-    return () => window.removeEventListener("scroll", updatePosition);
-  }, []);
-
-  return scrollPosition;
-};
+	return scrollPosition
+}
