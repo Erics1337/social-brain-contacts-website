@@ -1,31 +1,35 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextRequest, NextResponse } from 'next/server'
 
-import { render } from "@react-email/components";
+import { render } from '@react-email/components'
 
-import { transporter, smtpEmail } from "@/utils/nodemailer";
+import { transporter, smtpEmail } from '@/utils/nodemailer'
 
-import { Email } from "@/components/email";
-
+import { Email } from '@/components/email'
+interface RequestBody {
+	name: string
+	email: string
+	message: string
+}
 export async function POST(req: NextRequest, res: NextResponse) {
-  const body = await req.json();
-  const { name, email, message } = body;
+	const body = (await req.json()) as RequestBody
+	const { name, email, message } = body
 
-  const emailHtml = render(
-    <Email name={name} email={email} message={message} />
-  );
+	const emailHtml = render(
+		<Email name={name} email={email} message={message} />
+	)
 
-  const options = {
-    from: smtpEmail,
-    to: smtpEmail,
-    subject: "New Form Submission",
-    html: emailHtml,
-  };
+	const options = {
+		from: smtpEmail,
+		to: smtpEmail,
+		subject: 'New Form Submission',
+		html: emailHtml,
+	}
 
-  try {
-    // Send email using the transporter
-    await transporter.sendMail(options);
-  } catch (error) {
-    console.error("Failed to send email:", error);
-  }
-  return new Response("OK");
+	try {
+		// Send email using the transporter
+		await transporter.sendMail(options)
+	} catch (error) {
+		console.error('Failed to send email:', error)
+	}
+	return new Response('OK')
 }
