@@ -3,7 +3,7 @@ import React from 'react';
 
 const BetaCampaignLaunch: React.FC = () => {
     return (
-        <section className='relative py-16 bg-gray-100'>
+        <section className='relative py-16 bg-gray-100 text-gray-900'>
             <div className='container mx-auto px-4'>
                 <div className='flex flex-col md:flex-row items-center'>
                     <div className='w-full md:w-1/2 flex flex-col justify-center items-center md:items-start text-center md:text-left'>

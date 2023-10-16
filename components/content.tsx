@@ -4,7 +4,7 @@ import InfoCard from './infoCard'
 
 const Content = () => {
 	return (
-		<section className='body-font bg-gray-100 py-20'>
+		<section className='body-font bg-gray-100 py-20 text-gray-900'>
 			<div className='container px-5 mx-auto'>
 				<div className='text-center mb-20'>
 					<h1 className='sm:text-5xl text-4xl font-bold mb-6'>
