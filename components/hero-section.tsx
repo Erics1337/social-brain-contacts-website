@@ -1,21 +1,23 @@
+import heroImage from 'public/eed2c02a-727d-403d-9ff0-e06e2296891a.webp'
+
 /* eslint-disable react/no-unescaped-entities */
 const HeroSection = () => {
 	return (
 		<section
-			className='text-gray-600 body-font bg-cover bg-center'
+			className='text-gray-600 body-font bg-cover bg-center py-5'
 			style={{
 				backgroundImage:
-					"url('https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
+					"url('/eed2c02a-727d-403d-9ff0-e06e2296891a.webp')",
 			}}>
-			<div className='container mx-auto flex px-5 py-24 items-center justify-center flex-col'>
-				<div className='text-center lg:w-2/3 w-full bg-gray-100 bg-opacity-90 p-6 rounded-lg'>
+			<div className='container mx-auto flex px-5 py-24 my-5 items-center justify-center flex-col'>
+				<div className='text-center lg:w-2/3 w-full bg-gray-100 bg-opacity-90 p-6 rounded-lg p-4'>
 					<h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900'>
 						Unlock the Power of{' '}
 						<span className='text-primaryhover'>
 							Social Brain <strong>Contacts</strong>
 						</span>
 					</h1>
-					<p className='mb-8 leading-7 text-lg text-gray-700 font-medium tracking-normal mx-auto'>
+					<p className='mb-8 py-3leading-7 text-lg text-gray-700 font-medium tracking-normal mx-auto'>
 						'Social Brain Contacts' is a revolutionary mobile app
 						that applies the principles of social brain theory to
 						help you manage your contacts and understand your

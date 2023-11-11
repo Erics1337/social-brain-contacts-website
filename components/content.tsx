@@ -1,31 +1,54 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import InfoCard from './infoCard'
+import Image from 'next/image'
 
 const Content = () => {
 	return (
 		<section className='body-font bg-gray-100 py-20 text-gray-900'>
 			<div className='container px-5 mx-auto'>
+				{/* Heading */}
 				<div className='text-center mb-20'>
 					<h1 className='sm:text-5xl text-4xl font-bold mb-6'>
 						About Social Brain Theory
 					</h1>
-					<p className='leading-relaxed lg:w-2/3 mx-auto text-lg'>
-						Social Brain Theory suggests that human social networks
-						are organized into layers due to cognitive limitations.
-						These layers correspond to specific categories, commonly
-						referred to as 'Dunbar's Numbers.'
-						<br />
-						<br />
-						The Social Brain Contacts app leverages this theory by
-						enabling you to sort and manage your phone contacts
-						according to these categories. By fitting your contacts
-						into this framework, the app provides a structured way
-						to handle your social connections, making it easier to
-						manage and reducing the mental effort needed to navigate
-						a complex network of relationships.
-					</p>
 				</div>
+
+				{/* Image and Text Section */}
+				<div className='flex flex-wrap items-start mb-20'>
+					{/* Image Container */}
+					<div className='w-full lg:w-1/3 pr-4 mb-6 lg:mb-0'>
+						<Image
+							src='/b97486ff-f3a0-42e3-8676-cccf2b783ae0.webp'
+							alt='Social Brain Theory'
+							className='rounded-lg object-cover object-center w-full'
+							width={500}
+							height={400}
+						/>
+					</div>
+
+					{/* Text Container */}
+					<div className='w-full lg:px-5 lg:w-2/3 my-auto'>
+						<p className='leading-relaxed text-lg lg:px-5 my-auto'>
+							Social Brain Theory suggests that human social
+							networks are organized into layers due to cognitive
+							limitations. These layers correspond to specific
+							categories, commonly referred to as 'Dunbar's
+							Numbers.'
+							<br />
+							<br />
+							The Social Brain Contacts app leverages this theory
+							by enabling you to sort and manage your phone
+							contacts according to these categories. By fitting
+							your contacts into this framework, the app provides
+							a structured way to handle your social connections,
+							making it easier to manage and reducing the mental
+							effort needed to navigate a complex network of
+							relationships.
+						</p>
+					</div>
+				</div>
+
+				{/* Info Cards Section */}
 				<div className='flex flex-wrap -m-4'>
 					<InfoCard
 						number={5}
@@ -58,6 +81,8 @@ const Content = () => {
 						description="People you can recognize, but don't know personally."
 					/>
 				</div>
+
+				{/* Learn More Button */}
 				<div className='text-center mt-16'>
 					<a
 						href='https://www.youtube.com/watch?v=zZF6vXMGBOw'
