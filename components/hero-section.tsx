@@ -10,7 +10,7 @@ const HeroSection = () => {
 					"url('/eed2c02a-727d-403d-9ff0-e06e2296891a.webp')",
 			}}>
 			<div className='container mx-auto flex px-5 py-24 my-5 items-center justify-center flex-col'>
-				<div className='text-center lg:w-2/3 w-full bg-gray-100 bg-opacity-90 p-6 rounded-lg p-4'>
+				<div className='text-center lg:w-2/3 w-full bg-gray-100 bg-opacity-90 rounded-lg p-6'>
 					<h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900'>
 						Unlock the Power of{' '}
 						<span className='text-primaryhover'>

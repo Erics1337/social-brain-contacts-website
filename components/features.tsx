@@ -1,3 +1,5 @@
+import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 interface FeatureCardProps {
@@ -49,6 +51,18 @@ const Features = () => {
 					<h1 className='title-font sm:text-5xl text-4xl mb-4 font-medium text-gray-900'>
 						Top Features of Social Brain Contacts
 					</h1>
+					{/* Image Container */}
+					<div className='flex mt-6 justify-center'>
+						<div className='w-full md:w-1/3 pr-4 mb-6 lg:mb-0'>
+							<Image
+								src='/letsgo.png'
+								alt='Social Brain Theory'
+								className='rounded-lg object-cover object-center w-full'
+								width={500}
+								height={400}
+							/>
+						</div>
+					</div>
 					<p className='text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s'>
 						Discover how Social Brain Contacts can enhance your
 						connection management experience.
@@ -125,9 +139,9 @@ const Features = () => {
 					/>
 				</div>
 				<div className='text-center mt-16'>
-					<button className='inline-block bg-primary text-white py-2 px-8 rounded-lg text-lg hover:bg-primary-dark transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-dark'>
-						Explore More Features
-					</button>
+						<Link href='/knowledgeBase#using-features' className='hover:bg-primaryhover inline-block bg-primary text-white py-2 px-8 rounded-lg text-lg hover:bg-primary-dark transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-dark'>
+							Explore More Features
+						</Link>
 				</div>
 			</div>
 		</section>

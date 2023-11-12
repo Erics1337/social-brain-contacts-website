@@ -1,6 +1,7 @@
 import React from 'react'
 import InfoCard from './infoCard'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Content = () => {
 	return (
@@ -84,13 +85,13 @@ const Content = () => {
 
 				{/* Learn More Button */}
 				<div className='text-center mt-16'>
-					<a
+					<Link
 						href='https://www.youtube.com/watch?v=zZF6vXMGBOw'
 						target='_blank'
 						rel='noopener noreferrer'
-						className='inline-block bg-primary text-white py-2 px-8 rounded-lg text-lg hover:bg-primary-dark transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-dark'>
+						className='hover:bg-primaryhover inline-block bg-primary text-white py-2 px-8 rounded-lg text-lg hover:bg-primary-dark transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-dark'>
 						Learn More
-					</a>
+					</Link>
 				</div>
 			</div>
 		</section>
