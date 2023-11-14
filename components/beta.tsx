@@ -7,10 +7,10 @@ const BetaCampaignLaunch: React.FC = () => {
             <div className='container mx-auto px-4'>
                 <div className='flex flex-col md:flex-row items-center'>
                     <div className='w-full md:w-1/2 flex flex-col justify-center items-center md:items-start text-center md:text-left'>
-                        <h1 className='text-4xl sm:text-5xl font-extrabold text-primary mb-4'>
+                        <h1 className='title-font sm:text-5xl text-4xl mb-4 font-medium text-gray-900'>
                             Our Beta Campaign is Live!
                         </h1>
-                        <p className='text-lg md:text-xl mb-6'>
+                        <p className='text-lg md:text-xl mb-6 py-4'>
                             Experience our innovative app and contribute to its development! Download the app now and share your feedback to help us improve and refine our product.
                         </p>
                         <h2 className='text-xl md:text-2xl font-bold mb-4'>
@@ -24,7 +24,7 @@ const BetaCampaignLaunch: React.FC = () => {
                             href="https://docs.google.com/forms/d/16qeAaqXAhBW8aY3aFu87n0FJdpyIZtyKxH_SMqefhDg/edit" 
                             target="_blank" 
                             rel="noopener noreferrer" 
-							className='inline-flex text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-primaryhover rounded text-lg'>
+							className='inline-flex text-white bg-primary border-0 py-4 px-6 focus:outline-none hover:bg-primaryhover rounded text-lg'>
                             Provide Feedback
                         </a>
                     </div>

@@ -8,24 +8,26 @@ const Content = () => {
 		<section className='body-font bg-gray-100 py-20 text-gray-900'>
 			<div className='container px-5 mx-auto'>
 				{/* Heading */}
-				<div className='text-center mb-20'>
-					<h1 className='sm:text-5xl text-4xl font-bold mb-6'>
+				<div className='text-center'>
+					<h1 className='title-font sm:text-5xl text-4xl mb-4 font-medium text-gray-900'>
 						About Social Brain Theory
 					</h1>
 				</div>
-
+				<div className='flex justify-center py-5 my-4'>
+					<div className='w-16 h-1 rounded-full bg-primary inline-flex'></div>
+				</div>
 				{/* Image and Text Section */}
 				<div className='flex flex-wrap items-start mb-20'>
 					{/* Image Container */}
 					<div className='w-full lg:w-1/3 pr-4 mb-6 lg:mb-0'>
-						<Image
-							src='/b97486ff-f3a0-42e3-8676-cccf2b783ae0.webp'
-							alt='Social Brain Theory'
-							className='rounded-lg object-cover object-center w-full'
-							width={500}
-							height={400}
-						/>
-					</div>
+							<Image
+								src='/letsgo.png'
+								alt='Social Brain Theory'
+								className='rounded-lg object-cover object-center w-full'
+								width={500}
+								height={400}
+							/>
+						</div>
 
 					{/* Text Container */}
 					<div className='w-full lg:px-5 lg:w-2/3 my-auto'>
@@ -48,7 +50,6 @@ const Content = () => {
 						</p>
 					</div>
 				</div>
-
 				{/* Info Cards Section */}
 				<div className='flex flex-wrap -m-4'>
 					<InfoCard

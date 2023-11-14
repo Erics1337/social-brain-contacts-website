@@ -20,7 +20,11 @@ const OpenSource = () => {
 				<div className='lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center'>
 					<h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900'>
 						Contribute to Social Brain Contacts
+						<div className='flex mt-6 justify-center'>
+						<div className='w-16 h-1 rounded-full bg-primary inline-flex'></div>
+					</div>
 					</h1>
+					
 					<p className='mb-8 leading-relaxed text-lg'>
 						Join us in building an amazing app to manage social
 						connections based on social brain theory. Your

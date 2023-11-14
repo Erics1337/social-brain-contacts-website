@@ -51,24 +51,24 @@ const Features = () => {
 					<h1 className='title-font sm:text-5xl text-4xl mb-4 font-medium text-gray-900'>
 						Top Features of Social Brain Contacts
 					</h1>
-					{/* Image Container */}
 					<div className='flex mt-6 justify-center'>
-						<div className='w-full md:w-1/3 pr-4 mb-6 lg:mb-0'>
+						<div className='w-16 h-1 rounded-full bg-primary inline-flex'></div>
+					</div>
+					<p className='text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto pt-6 text-gray-500s'>
+						Discover how Social Brain Contacts can enhance your
+						connection management experience.
+					</p>
+					{/* Image Container */}
+					<div className='flex my-6 justify-center'>
+						<div className='w-2/3 lg:w-1/3 pr-4 mb-6 lg:mb-0'>
 							<Image
-								src='/letsgo.png'
+								src='/b97486ff-f3a0-42e3-8676-cccf2b783ae0.webp'
 								alt='Social Brain Theory'
-								className='rounded-lg object-cover object-center w-full'
+								className='rounded-2xl object-cover object-center w-full'
 								width={500}
 								height={400}
 							/>
 						</div>
-					</div>
-					<p className='text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s'>
-						Discover how Social Brain Contacts can enhance your
-						connection management experience.
-					</p>
-					<div className='flex mt-6 justify-center'>
-						<div className='w-16 h-1 rounded-full bg-primary inline-flex'></div>
 					</div>
 				</div>
 				<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
@@ -139,9 +139,11 @@ const Features = () => {
 					/>
 				</div>
 				<div className='text-center mt-16'>
-						<Link href='/knowledgeBase#using-features' className='hover:bg-primaryhover inline-block bg-primary text-white py-2 px-8 rounded-lg text-lg hover:bg-primary-dark transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-dark'>
-							Explore More Features
-						</Link>
+					<Link
+						href='/knowledgeBase#using-features'
+						className='hover:bg-primaryhover inline-block bg-primary text-white py-2 px-8 rounded-lg text-lg hover:bg-primary-dark transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-dark'>
+						Explore More Features
+					</Link>
 				</div>
 			</div>
 		</section>
