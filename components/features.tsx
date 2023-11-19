@@ -54,10 +54,10 @@ const Features = () => {
 					<div className='flex mt-6 justify-center'>
 						<div className='w-16 h-1 rounded-full bg-primary inline-flex'></div>
 					</div>
-					<p className='text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto pt-6 text-gray-500s'>
+					{/* <p className='text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto pt-6 text-gray-500s'>
 						Discover how Social Brain Contacts can enhance your
 						connection management experience.
-					</p>
+					</p> */}
 					{/* Image Container */}
 					<div className='flex my-6 justify-center'>
 						<div className='w-2/3 lg:w-1/3 pr-4 mb-6 lg:mb-0'>
