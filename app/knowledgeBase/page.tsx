@@ -7,7 +7,7 @@ const KnowledgeBase = () => {
 		<div className="p-4 md:p-8">
 			<h1 className="text-2xl font-bold mb-4">Welcome to the KnowledgeBase</h1>
 
-			<p className="mb-6">
+			<p className="mb-6 dark:text-gray-400">
 				Find helpful articles, guides, and frequently asked questions to get the
 				most out of our app.
 			</p>
@@ -15,7 +15,7 @@ const KnowledgeBase = () => {
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
 				<div className="p-4 border rounded-md hover:shadow-lg transition-shadow">
 					<h2 className="text-xl font-semibold mb-2">Getting Started</h2>
-					<p>
+					<p className="dark:text-gray-400">
 						Learn the basics of how to use the app, set up your account, and
 						start managing your contacts effectively.
 					</p>
@@ -29,7 +29,7 @@ const KnowledgeBase = () => {
 
 				<div className="p-4 border rounded-md hover:shadow-lg transition-shadow">
 					<h2 className="text-xl font-semibold mb-2">Using Features</h2>
-					<p>
+					<p className="dark:text-gray-400">
 						Discover how to make the most of the app's features including
 						contact grouping, communication, and more.
 					</p>
@@ -43,7 +43,7 @@ const KnowledgeBase = () => {
 
 				<div className="p-4 border rounded-md hover:shadow-lg transition-shadow">
 					<h2 className="text-xl font-semibold mb-2">Troubleshooting</h2>
-					<p>
+					<p className="dark:text-gray-400">
 						Get help with common issues and find solutions to ensure a smooth
 						experience with the app.
 					</p>
@@ -57,7 +57,7 @@ const KnowledgeBase = () => {
 
 				<div className="p-4 border rounded-md hover:shadow-lg transition-shadow">
 					<h2 className="text-xl font-semibold mb-2">FAQs</h2>
-					<p>
+					<p className="dark:text-gray-400">
 						Find answers to frequently asked questions and useful tips for using
 						the app.
 					</p>
