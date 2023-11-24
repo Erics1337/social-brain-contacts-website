@@ -11,7 +11,7 @@ const GettingStarted: React.FC = () => {
 				<h2 className="text-lg font-semibold mb-2">
 					Step 1: Creating Your Account
 				</h2>
-				<ul className="list-disc pl-5">
+				<ul className="list-disc pl-5 dark:text-gray-300">
 					<li>Download the App from your app store.</li>
 					<li>Open the app and select 'Sign Up'. Enter your details.</li>
 					<li>Check your email for a verification link and click on it.</li>
@@ -22,7 +22,7 @@ const GettingStarted: React.FC = () => {
 				<h2 className="text-lg font-semibold mb-2">
 					Step 2: Navigating the Dashboard
 				</h2>
-				<ul className="list-disc pl-5">
+				<ul className="list-disc pl-5 dark:text-gray-300">
 					<li>
 						View your recent contacts and quick actions on the Home Screen.
 					</li>
@@ -34,7 +34,7 @@ const GettingStarted: React.FC = () => {
 				<h2 className="text-lg font-semibold mb-2">
 					Step 3: Adding a New Contact
 				</h2>
-				<ul className="list-disc pl-5">
+				<ul className="list-disc pl-5 dark:text-gray-300">
 					<li>Tap on 'Add Contact' and fill in the necessary details.</li>
 					<li>Add custom fields for unique information.</li>
 					<li>Save the contact once all details are entered.</li>
@@ -45,7 +45,7 @@ const GettingStarted: React.FC = () => {
 				<h2 className="text-lg font-semibold mb-2">
 					Step 4: Editing and Managing Contacts
 				</h2>
-				<ul className="list-disc pl-5">
+				<ul className="list-disc pl-5 dark:text-gray-300">
 					<li>Edit or delete contacts easily from your contact list.</li>
 					<li>Organize contacts using groups or tags.</li>
 				</ul>
@@ -53,7 +53,7 @@ const GettingStarted: React.FC = () => {
 
 			<section className="mb-6">
 				<h2 className="text-lg font-semibold mb-2">Unique Features</h2>
-				<ul className="list-disc pl-5">
+				<ul className="list-disc pl-5 dark:text-gray-300">
 					<li>Utilize the intelligent search feature for quick access.</li>
 					<li>Your contacts are synchronized in real-time across devices.</li>
 				</ul>
@@ -63,7 +63,7 @@ const GettingStarted: React.FC = () => {
 				<h2 className="text-lg font-semibold mb-2">
 					Best Practices for Contact Management
 				</h2>
-				<ul className="list-disc pl-5">
+				<ul className="list-disc pl-5 dark:text-gray-300">
 					<li>Regularly update and back up your contacts.</li>
 					<li>Review your privacy settings periodically.</li>
 				</ul>
@@ -71,7 +71,7 @@ const GettingStarted: React.FC = () => {
 
 			<section>
 				<h2 className="text-lg font-semibold mb-2">Need More Help?</h2>
-				<p>
+				<p className=' dark:text-gray-300'>
 					Check out our FAQs section or contact our support team for more
 					assistance.
 				</p>

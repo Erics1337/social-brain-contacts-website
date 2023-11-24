@@ -1,8 +1,6 @@
 "use client"
 
 import { Inter } from "next/font/google"
-import Header from "@/components/header"
-import Footer from "@/components/footer"
 import { useState } from "react"
 import Link from "next/link"
 
@@ -22,17 +20,19 @@ export default function KnowledgeBaseLayout({
 	}
 
 	return (
-		<div className="flex flex-col md:flex-row dark:bg-gray-800 dark:text-white">
+		<div
+			className={`${inter.className} flex flex-col md:flex-row dark:bg-gray-800 dark:text-white`}
+		>
 			{/* Mobile Dropdown */}
 			<div className="md:hidden p-4 bg-gray-100 dark:bg-gray-700">
 				<Link
 					href="/knowledgeBase"
-					className="text-2xl font-bold mb-4 block hover:text-blue-600 dark:hover:text-blue-300"
+					className="text-2xl font-bold mb-4 block hover:text-blue-600 dark:hover:text-blue-300 pl-5"
 				>
 					Knowledge Base
 				</Link>
 
-				<div className="mb-4">
+				<div className="mb-4 pl-5">
 					<label htmlFor="version-select" className="mr-2">
 						Version:
 					</label>
@@ -49,8 +49,7 @@ export default function KnowledgeBaseLayout({
 						))}
 					</select>
 				</div>
-				<ul className="space-y-2">
-					{" "}
+				<ul className="space-y-2 pl-5">
 					<li>
 						<Link href="/knowledgeBase/getting-started">Getting Started</Link>
 					</li>
@@ -72,7 +71,7 @@ export default function KnowledgeBaseLayout({
 			</div>
 
 			{/* Sidebar for larger screens */}
-			<aside className="hidden md:block bg-gray-100 dark:bg-gray-700 p-4 md:w-64">
+			<aside className="hidden md:block bg-gray-100 dark:bg-gray-700 p-4 md:w-64 flex-shrink-0">
 				<Link
 					href="/knowledgeBase"
 					className="text-2xl font-bold mb-4 block hover:text-blue-600 dark:hover:text-blue-300"
