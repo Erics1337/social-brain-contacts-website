@@ -17,6 +17,7 @@ export default function KnowledgeBaseLayout({
 	const versions = ["1.0.0"] // Add more versions as they become available
 
 	const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+		// @ts-ignore
 		setVersion(e.target.value)
 	}
 
@@ -24,7 +25,32 @@ export default function KnowledgeBaseLayout({
 		<div className="flex flex-col md:flex-row dark:bg-gray-800 dark:text-white">
 			{/* Mobile Dropdown */}
 			<div className="md:hidden p-4 bg-gray-100 dark:bg-gray-700">
-				<ul>
+				<Link
+					href="/knowledgeBase"
+					className="text-2xl font-bold mb-4 block hover:text-blue-600 dark:hover:text-blue-300"
+				>
+					Knowledge Base
+				</Link>
+
+				<div className="mb-4">
+					<label htmlFor="version-select" className="mr-2">
+						Version:
+					</label>
+					<select
+						id="version-select"
+						onChange={handleChange}
+						value={version}
+						className="bg-white dark:bg-gray-800"
+					>
+						{versions.map((v) => (
+							<option key={v} value={v} className="bg-white dark:bg-gray-800">
+								{v}
+							</option>
+						))}
+					</select>
+				</div>
+				<ul className="space-y-2">
+					{" "}
 					<li>
 						<Link href="/knowledgeBase/getting-started">Getting Started</Link>
 					</li>
@@ -36,6 +62,11 @@ export default function KnowledgeBaseLayout({
 					</li>
 					<li>
 						<Link href="/knowledgeBase/faq">FAQ</Link>
+					</li>
+					<li>
+						<Link href="/knowledgeBase/dev">
+							Technical Documentation for Devs
+						</Link>
 					</li>
 				</ul>
 			</div>
@@ -67,7 +98,7 @@ export default function KnowledgeBaseLayout({
 					</select>
 				</div>
 
-				<ul>
+				<ul className="space-y-2">
 					<li>
 						<Link href="/knowledgeBase/getting-started">Getting Started</Link>
 					</li>
@@ -79,6 +110,11 @@ export default function KnowledgeBaseLayout({
 					</li>
 					<li>
 						<Link href="/knowledgeBase/faq">FAQ</Link>
+					</li>
+					<li>
+						<Link href="/knowledgeBase/dev">
+							Technical Documentation for Devs
+						</Link>
 					</li>
 				</ul>
 			</aside>
