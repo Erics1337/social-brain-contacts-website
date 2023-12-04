@@ -14,7 +14,10 @@ const GettingStarted: React.FC = () => {
 				<ul className="list-disc pl-5 dark:text-gray-300">
 					<li>Download the App from your app store.</li>
 					<li>Open the app and select 'Sign Up'. Enter your details.</li>
-					<li>Check your email for a verification link and click on it.</li>
+					<li>
+						Your email will be used to verify your account in the case you
+						forget your password.
+					</li>
 				</ul>
 			</section>
 
@@ -23,21 +26,28 @@ const GettingStarted: React.FC = () => {
 					Step 2: Navigating the Dashboard
 				</h2>
 				<ul className="list-disc pl-5 dark:text-gray-300">
+					<li>View your grouped contacts from the main screen.</li>
 					<li>
-						View your recent contacts and quick actions on the Home Screen.
+						Open the side menu and click the "Sort Contacts" button to navigate
+						to the sorting screen.
 					</li>
-					<li>Use the bottom menu to navigate through the app.</li>
+					<li>
+						Use the tabs on the bottom of the sort screen to either show all
+						contacts or filter by contacts that have yet to be assigned a group.
+					</li>
 				</ul>
 			</section>
 
 			<section className="mb-6">
-				<h2 className="text-lg font-semibold mb-2">
-					Step 3: Adding a New Contact
-				</h2>
+				<h2 className="text-lg font-semibold mb-2">Step 3: Sorting Contacts</h2>
 				<ul className="list-disc pl-5 dark:text-gray-300">
-					<li>Tap on 'Add Contact' and fill in the necessary details.</li>
-					<li>Add custom fields for unique information.</li>
-					<li>Save the contact once all details are entered.</li>
+					<li>
+						To assign contact to a group, long press on the contact card to open
+						a menu with the group options.{" "}
+					</li>
+					<li>
+						Select a group option and the contact will be assigned to the group.
+					</li>
 				</ul>
 			</section>
 
@@ -46,32 +56,16 @@ const GettingStarted: React.FC = () => {
 					Step 4: Editing and Managing Contacts
 				</h2>
 				<ul className="list-disc pl-5 dark:text-gray-300">
-					<li>Edit or delete contacts easily from your contact list.</li>
-					<li>Organize contacts using groups or tags.</li>
-				</ul>
-			</section>
-
-			<section className="mb-6">
-				<h2 className="text-lg font-semibold mb-2">Unique Features</h2>
-				<ul className="list-disc pl-5 dark:text-gray-300">
-					<li>Utilize the intelligent search feature for quick access.</li>
-					<li>Your contacts are synchronized in real-time across devices.</li>
-				</ul>
-			</section>
-
-			<section className="mb-6">
-				<h2 className="text-lg font-semibold mb-2">
-					Best Practices for Contact Management
-				</h2>
-				<ul className="list-disc pl-5 dark:text-gray-300">
-					<li>Regularly update and back up your contacts.</li>
-					<li>Review your privacy settings periodically.</li>
+					<li>
+						You can long press a contact card from anywhere in the app to bring
+						up the groups menu.
+					</li>
 				</ul>
 			</section>
 
 			<section>
 				<h2 className="text-lg font-semibold mb-2">Need More Help?</h2>
-				<p className=' dark:text-gray-300'>
+				<p className=" dark:text-gray-300">
 					Check out our FAQs section or contact our support team for more
 					assistance.
 				</p>
