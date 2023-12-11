@@ -21,11 +21,7 @@ const HeroSection = () => {
 						'Social Brain Contacts' is a revolutionary mobile app
 						that applies the principles of social brain theory to
 						help you manage your contacts and understand your
-						relationships. Sort your contacts into different
-						categories like intimate relationships, best friends,
-						good friends, and more. Built with cutting-edge
-						technology, the app provides a seamless and intuitive
-						experience.
+						relationships.
 					</p>
 
 					<div className='flex justify-center'>
